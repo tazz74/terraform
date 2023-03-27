@@ -1,1 +1,7 @@
-
+refresh_token = ""
+url = ""
+cloud_account = ""
+region = ""
+zone = ""
+project = ""
+image_name = ""
