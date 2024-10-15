@@ -1,10 +1,4 @@
 terraform {
-  cloud {
-    organization = "escholten_demo"
-    workspaces {
-      name = "terraform"
-    }
-  }
 
   required_providers {
     aws = {
