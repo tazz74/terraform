@@ -1,4 +1,4 @@
-terraform {
+oterraform {
 
   required_providers {
     aws = {
@@ -14,9 +14,9 @@ provider "aws" {
 
 resource "aws_instance" "Demo_server" {
   ami           = "ami-0084a47cc718c111a"
-  instance_type = "t2.micro"
+  instance_type = "t2.small"
 
   tags = {
-    Name = "ExampleAppServerInstance"
+    Name = "Demo-Server-Instance"
   }
 }
